@@ -187,7 +187,7 @@ class ToDoApp extends React.Component {
         <h1>To Dos</h1>
         <List
           items = {this.state.items}
-          status={this.state.status}
+          status = {this.state.status}
           CompleteStatus = {this.CompleteStatus.bind(this)}
           CloseItem = {this.CloseItem.bind(this)}
         />
